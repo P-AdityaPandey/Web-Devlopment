@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form- 4</title>
+</head>
+<body>
+    <h3>CHECKBOXES - multiple selection</h3>
+    <form action="">
+        <h4>CHOOSE YOUR LANGUAGE KNOWN</h4>
+        <input type="checkbox" name="language"  value="HINDI">HINDI<br>
+        <input type="checkbox" name="language"  value="ENGLISH" checked>ENGLISH<br>
+        <input type="checkbox" name="language"  value="TAMIL">TAMIL<br>
+        <input type="checkbox" name="language"  value="TELUGU">TELUGU<br>
+        <input type="checkbox" name="language"  value="FRENCH">FRENCH<br>
+    </form>
+
+    <H3>RADIO BUTTON - SINGLE SELECTION</H3>
+    <form action="">
+        <h4>ARE YOU MARRIED?</h4>
+        <label for="MA">YES</label>
+        <input id="MA" type="radio" name="married">
+        <label for="MA1">NO</label>
+        <input id="MA1" type="radio" name="married">
+    </form>
+    <H3>EXAMPLE-2</H3>
+    <form action="">
+        <h4>SELECT YOUR GENDER</h4>
+        <label for="M">MALE</label>
+        <input id="M" type="radio" name="GENDER">
+        <label for="F">FEMALE</label>
+        <input id="F" type="radio" name="GENDER">
+        <label for="T">TRANGENDER</label>
+        <input id="T" type="radio" name="GENDER">
+    </form>
+    <H3>DROP DOWN / SELECT BOX -SINGLE</H3>
+    <H4>PLEASE SELECT YOUR CARD PAYMENT MODE</H4>
+    <select name="pmode">
+        <option value="ccard">CREDIT CARD</option>
+        <option value="Dcard">DEBIT CARD</option>
+        <option value="PPAL">PAYPAL</option>
+        <option value="OT">ONLINE TRANSFER</option>
+    </select>
+    <H3>TEXT AREA</H3>
+    <p>ENTER YOUR FEEDBACK HERE</p>
+    <textarea name="FEEDBACK" rows="8" cols="80">FEEDBACK</textarea>
+
+
+    <H3>FILE UPLOAD</H3>
+    <input type="file">
+
+</body>
+</html>
